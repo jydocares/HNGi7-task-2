@@ -1,0 +1,19 @@
+Index: scripts/Adeboye-HNG-05452.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- scripts/Adeboye-HNG-05452.py	(revision 41a02675d36b0085c9cada4d544c5f2b0df7287b)
++++ scripts/Adeboye-HNG-05452.py	(date 1591453332252)
+@@ -1,5 +1,6 @@
+ name = "Adeboye Jide"
+-HNG_ID = "HNG-05452"
++hngi7_id = "HNG-0542"
++email = "jydocares@yahoo.com"
+ language = "Python"
+-email_address = "jydocares@yahoo.com"
+-print("Hello world, this is {} with HNGi7 ID {} and email {} using {} for stage 2 task".format(name, HNG_ID, email_address, language))
+\ No newline at end of file
++
++print(f"Hello World, this is {name} with HNGi7 ID {hngi7_id} using {language} for stage 2 task")
+\ No newline at end of file
